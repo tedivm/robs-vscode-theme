@@ -1,0 +1,9 @@
+.vscode/**
+.vscode-test/**
+.gitignore
+.git/**
+.github/**
+vsc-extension-quickstart.md
+AGENTS.md
+Makefile
+dev-guide.md
