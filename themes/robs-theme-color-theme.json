@@ -1201,6 +1201,14 @@
       }
     },
     {
+      "name": "URL Other",
+      "scope": ["markup.underline.link.markdown"],
+      "settings": {
+        "fontStyle": "underline",
+        "foreground": "#de38a8"
+      }
+    },
+    {
       "name": "Decorators",
       "scope": [
         "tag.decorator.js entity.name.tag.js",
@@ -1349,10 +1357,14 @@
     },
     {
       "name": "Markup - Bold",
-      "scope": ["markup.bold", "markup.bold string"],
+      "scope": [
+        "markup.bold",
+        "markup.bold string",
+        "markup.quote markup.bold"
+      ],
       "settings": {
         "fontStyle": "bold",
-        "foreground": "#ff5050"
+        "foreground": "#de38a8"
       }
     },
     {
@@ -1367,7 +1379,7 @@
       ],
       "settings": {
         "fontStyle": "bold",
-        "foreground": "#ff5050"
+        "foreground": "#de38a8"
       }
     },
     {

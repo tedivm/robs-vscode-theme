@@ -2,7 +2,10 @@
   "name": "robs-theme",
   "displayName": "robs-theme",
   "description": "This is Rob's Theme",
-  "repository": "https://github.com/tedivm/robs-vscode-theme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tedivm/robs-vscode-theme.git"
+  },
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.0.0"
