@@ -9,10 +9,10 @@ validate:
 	@jq empty $(THEME) && echo "JSON valid"
 
 format:
-	npx --yes prettier --write $(THEME) **/*.md **/*.yml **/*.yaml
+	npx --yes prettier --write $(THEME) **/*.md **/*.yml
 
 check-format:
-	npx --yes prettier --check $(THEME) **/*.md **/*.yml **/*.yaml
+	npx --yes prettier --check $(THEME) **/*.md **/*.yml
 
 package:
 	npx --yes @vscode/vsce package

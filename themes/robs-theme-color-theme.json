@@ -199,7 +199,6 @@
     "charts.green": "#50c878",
     "charts.orange": "#de38a8",
     "charts.purple": "#b96dff",
-
     "merge.currentHeaderBackground": "#50c87830",
     "merge.currentContentBackground": "#50c87820",
     "merge.incomingHeaderBackground": "#b96dff30",
@@ -972,7 +971,7 @@
         "keyword.other.substitution"
       ],
       "settings": {
-        "foreground": "#ff5050"
+        "foreground": "#01cdfe"
       }
     },
     {
@@ -1017,7 +1016,7 @@
       "name": "Other Variable, String Link",
       "scope": ["support.other.variable", "string.other.link"],
       "settings": {
-        "foreground": "#b96dff"
+        "foreground": "#01cdfe"
       }
     },
     {
@@ -1027,17 +1026,21 @@
         "constant.language",
         "support.constant",
         "constant.character",
-        "constant.escape",
-        "variable.parameter",
-        "keyword.other.unit",
-        "keyword.other"
+        "constant.escape"
       ],
       "settings": {
-        "foreground": "#50c878"
+        "foreground": "#01cdfe"
       }
     },
     {
-      "name": "String, Symbols, Inherited Class, Markup Heading",
+      "name": "Function Argument, Tag Attribute, Embedded",
+      "scope": ["variable.parameter", "keyword.other.unit", "keyword.other"],
+      "settings": {
+        "foreground": "#b96dff"
+      }
+    },
+    {
+      "name": "Symbols, Inherited Class, Markup Heading",
       "scope": [
         "string",
         "constant.other.symbol",
@@ -1049,6 +1052,13 @@
       ],
       "settings": {
         "foreground": "#50c878"
+      }
+    },
+    {
+      "name": "String",
+      "scope": ["string"],
+      "settings": {
+        "foreground": "#b96dff"
       }
     },
     {
@@ -1322,9 +1332,13 @@
     },
     {
       "name": "Markdown - Markup Raw Inline",
-      "scope": ["text.html.markdown markup.inline.raw.markdown"],
+      "scope": [
+        "text.html.markdown markup.inline.raw.markdown",
+        "markup.inline.raw"
+      ],
       "settings": {
-        "foreground": "#de38a8"
+        "foreground": "#de38a8",
+        "fontStyle": "italic bold"
       }
     },
     {
@@ -1351,8 +1365,7 @@
       "name": "Markup - Italic",
       "scope": ["markup.italic"],
       "settings": {
-        "fontStyle": "italic",
-        "foreground": "#ff5050"
+        "fontStyle": "italic"
       }
     },
     {
@@ -1363,8 +1376,7 @@
         "markup.quote markup.bold"
       ],
       "settings": {
-        "fontStyle": "bold",
-        "foreground": "#de38a8"
+        "fontStyle": "bold"
       }
     },
     {
@@ -1387,7 +1399,7 @@
       "scope": ["markup.underline"],
       "settings": {
         "fontStyle": "underline",
-        "foreground": "#ffbe32"
+        "foreground": "#de38a8"
       }
     },
     {
